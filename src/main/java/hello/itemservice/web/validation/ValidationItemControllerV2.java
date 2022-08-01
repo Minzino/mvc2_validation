@@ -2,9 +2,7 @@ package hello.itemservice.web.validation;
 
 import hello.itemservice.domain.item.Item;
 import hello.itemservice.domain.item.ItemRepository;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;
@@ -102,4 +100,3 @@ public class ValidationItemControllerV2 {
 	}
 
 }
-
