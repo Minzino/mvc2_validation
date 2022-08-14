@@ -11,7 +11,7 @@ public class ItemValidator implements Validator {
 
 	@Override
 	public boolean supports(Class<?> clazz) {
-		return false;
+		return Item.class.isAssignableFrom(clazz);
 	}
 
 	@Override
